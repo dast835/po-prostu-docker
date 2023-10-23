@@ -1,0 +1,7 @@
+docker run -d --network none --name nonenginx nginx 
+
+docker ps
+
+docker exec -it <idKontenera> bash
+
+docker network inspect none

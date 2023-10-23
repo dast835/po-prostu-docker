@@ -1,0 +1,13 @@
+
+    Ofivjalny Dockerfile Alpine’a – https://github.com/alpinelinux/docker-alpine/blob/e7f8cc3aebd309337497c1e794db9aabbb9902c0/x86_64/Dockerfile
+    Oficjalny Dockerfile Redisa – https://github.com/docker-library/redis/blob/f00ff0562e52e24f0cde26988628ad7de51fd8d8/7.2/Dockerfile
+
+
+
+
+
+Polecenia użyte w lekcji:
+
+docker build -t myredis:1.0 .
+
+docker images

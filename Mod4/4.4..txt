@@ -1,0 +1,14 @@
+
+    Strona dokumentacji o tmpfs dla Dockera – https://docs.docker.com/storage/tmpfs/
+
+Polecenia użyte w lekcji:
+
+docker run -it --mount type=tmpfs,destination=/tajne,tmpfs-size=10m alpine
+
+touch mojehasla.txt
+
+docker ps 
+
+docker inspect <idKontenera>
+
+docker rm -f <idKontenera>

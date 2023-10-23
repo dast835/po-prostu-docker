@@ -1,0 +1,33 @@
+docker --version
+
+docker version
+
+docker info
+
+docker container run hello-world
+
+docker run hello-world
+
+docker container ls
+
+docker container ls -a
+
+docker ps -a
+
+docker run ubuntu sleep 60
+
+docker run -d ubuntu sleep 30
+
+docker container run -d hello-world
+
+docker attach <idKontenera>
+
+docker stop <idKontenera>
+
+docker start <idKontenera>
+
+docker run -d nginx 
+
+docker exec <idKontenera> hostname
+
+docker exec <idKontenera> cat /etc/*rel*

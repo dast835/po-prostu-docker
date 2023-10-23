@@ -1,0 +1,11 @@
+Polecenia użyte w lekcji:
+
+docker build -t mynginx:1.0 .
+
+docker images
+
+docker run -p 80:80 mynginx:1.0
+
+docker stop <idKontenera>
+
+http://127.0.0.1

@@ -1,0 +1,8 @@
+
+docker run --name mynginx -p 80:80 -d nginx
+
+docker logs <idKontenera>
+
+docker logs <idKontenera> -f
+
+docker inspect <idKontenera>

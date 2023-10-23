@@ -1,0 +1,31 @@
+Polecenie użyte w lekcji:
+
+docker pull ubuntu:latest
+
+docker run -it ubuntu bash
+
+apt update
+
+apt install -y cowsay
+
+/usr/games/cowsay Muuuu
+
+cd
+
+mkdir app
+
+apt install fortune
+
+docker commit -c 'CMD ["/usr/games/fortune"]' <idModyfikowanegoKontenera> <nazwaNowegoObrazu:tag>
+
+docker images
+
+docker run <nazwaNowegoObrazu:tag>
+
+docker run -it <nazwaNowegoObrazu:tag> bash
+
+cd
+
+ll
+
+/usr/games/cowsay Elo

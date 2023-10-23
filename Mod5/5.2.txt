@@ -1,0 +1,23 @@
+Repozytorium z przykładem docker compose dla Portainera – https://github.com/docker/awesome-compose/blob/master/portainer/compose.yaml
+
+
+
+Polecenia użyte w lekcji:
+
+docker compose up
+
+docker compose ps
+
+docker compose down
+
+docker volume ls
+
+docker compose down -v
+
+docker compose up -d
+
+docker compose stop
+
+docker compose start
+
+docker compose top

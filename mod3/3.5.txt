@@ -1,0 +1,7 @@
+docker run -d -p 8080:80 nginx
+
+docker ps
+
+docker stop $(docker ps -aq)
+
+docker run -d --name mynginx -P nginx

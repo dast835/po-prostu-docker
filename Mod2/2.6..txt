@@ -1,0 +1,5 @@
+docker pull ubuntu:latest
+
+docker pull ubuntu:focal
+
+docker search ubuntu

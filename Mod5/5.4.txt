@@ -1,0 +1,24 @@
+
+    Obraz serwera SFTP na Docker Hubie – https://hub.docker.com/r/atmoz/sftp
+    Oficjalna strona projektu FileZilla – https://filezilla-project.org/
+
+version: '3.3'
+services:
+  sftp:
+      image: atmoz/sftp
+      volumes:
+          - '.\users.conf:/etc/sftp/users.conf'
+          - 'mysftpvolume:/home'
+      ports:
+          - '2222:22'
+volumes:
+  mysftpvolume:
+
+Plik docker-compose.yml
+
+
+Polecenia użyte w lekcji:
+
+nano docker-compose-yml
+
+docker compose up

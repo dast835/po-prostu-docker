@@ -1,0 +1,8 @@
+
+Polecenia użyte w lekcji:
+
+docker ps
+
+docker commit <nazwaKontenera> <nazwaNowegoObrazu>:<Tag>
+
+docker run -d mojnginx2 -p 8087:80 <nazwaNowegoObrazu>:<Tag>

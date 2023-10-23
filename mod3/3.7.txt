@@ -1,0 +1,11 @@
+docker run -d --network backend --name database -e MYSQL_ROOT_PASSWORD=tajnehaslo mysql
+
+docker ps
+
+docker inspect <idKontenera>
+
+docker network ls 
+
+docker network connect <nazwaSieci> <nazwaKonternera>
+
+docker network disconnect <nazwaSieci> <nazwaKonternera>

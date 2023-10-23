@@ -1,0 +1,12 @@
+
+    Oficjalny obraz Ubuntu na Docker Hub – https://hub.docker.com/_/ubuntu
+
+
+
+Polecenia użyte w lekcji:
+
+docker build -t mybuntu:1.0 .
+
+docker run myubuntu:1.0
+
+docker run -it myubuntu:1.0 bash

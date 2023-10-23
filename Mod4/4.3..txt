@@ -1,0 +1,45 @@
+
+    Strona dokumentacji na temat magazynów Volumen dla Dockera – https://docs.docker.com/storage/volumes/
+
+
+Polecenia użyte w lekcji:
+
+docker run -d  -it --name mynginx -p 8080:80 -v wolumen1:/usr/share/nginx/html nginx 
+
+http://127.0.0.1:8080
+
+docker exec -it mynginx bash
+
+cd /usr/share/nginx/html
+
+apt update && apt install nano
+
+nano index.html
+
+docker ps
+
+docker rm -f <idKontenera>
+
+docker rm $(docker ps -aq) --force
+
+docker run -d  -it --name mynginx2 -p 8081:80 -v wolumen1:/usr/share/nginx/html nginx
+
+http://127.0.0.1:8080
+
+docker volume inspect <nazwaWolemena>
+
+docker volume inspect wolumen1
+
+docker volume ls
+
+docker run -itd -v wolumen2:/nowyKatalog --name debian1 debian
+
+docker exec -it debian1 bash
+
+touch nowyplikzdebian1
+
+echo "debian2" >> nowyplikzdebian1
+
+docker run -itd -v wolumen2:/nowyKatalog --name debian2 debian
+
+docker run -itd -v wolumen2:/tylkoCzytam:ro --name debian3 debian

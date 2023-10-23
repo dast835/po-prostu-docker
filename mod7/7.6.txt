@@ -1,0 +1,9 @@
+
+    Strona rozwiązania Snyk – https://snyk.io/
+
+
+Polecenia użyte w lekcji:
+
+docker images
+
+docker scan <nazwaObrazu:tag>

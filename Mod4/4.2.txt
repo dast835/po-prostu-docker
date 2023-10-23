@@ -1,0 +1,19 @@
+Strona dokumentacji o magazynie Bind mount – https://docs.docker.com/storage/bind-mounts/
+
+
+
+Polecenia użyte w lekcji:
+
+nano index.html
+
+<html>
+<body>
+
+<h1>moja nowa strona</h1>
+
+</body>
+</html>
+
+docker run -d --name web1 -p 8088:80 -v <sciezkaLokalna>:/usr/share/nginx/html nginx
+
+:) 

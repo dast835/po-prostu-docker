@@ -1,0 +1,11 @@
+
+    Dokumentacja Dockera dotycząca warstw – https://docs.docker.com/build/guide/layers/
+
+
+Polecenia użyte w lekcji:
+
+docker pull redis
+
+docker history redis:latest
+
+docker image inspect <nazwaObrazu>

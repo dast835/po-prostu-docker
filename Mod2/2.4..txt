@@ -1,0 +1,15 @@
+docker ps 
+
+docker stats
+
+docker stats <idKontenera>
+
+docker stats <idKonenerra> --no-stream
+
+docker top
+
+docker pull progrium/stress
+
+docker run -d progrium/stress --cpu 1 --timeout 30s
+
+docker run -d --cpus=".5" progrium/stress --cpu 1 --timeout 30s

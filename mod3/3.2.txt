@@ -1,0 +1,17 @@
+docker run -d -p 80:80 nginx
+
+docker rm -f <idKontenera>
+
+docker inspect <idKontenera>
+
+docker run -it alpine sh
+
+docker run -d --name nginx2 nginx
+
+docker inspect <nazwaKonternera>
+
+docker inspect network bridge
+
+docker network create <nazwaNowejSieci>
+
+docker run -d --name mynginx --network <nazwaSieci> -P nginx

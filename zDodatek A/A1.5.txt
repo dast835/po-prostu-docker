@@ -1,0 +1,9 @@
+Polecenia użyte w lekcji:
+
+kubectl run my-nginx --image=nginx 
+
+kubectl get po
+
+kubectl describe pod <nazwaPoda>
+
+kubectl delete pod <nazwaPoda>

@@ -1,0 +1,26 @@
+
+docker ps -a
+
+docker rm <idKontenera>
+
+docker rm -f <idKontenera>
+
+docker rm $(docker ps -aq)
+
+docker rm $(docker ps -aq) --force
+
+docker image ls
+
+docker rmi $(docker image ls -q)
+
+docker image prune
+
+docker image prune -a
+
+docker container prune 
+
+docker volume prune 
+
+docker network prune
+
+docker system prune

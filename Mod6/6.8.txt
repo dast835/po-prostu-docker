@@ -1,0 +1,19 @@
+
+    Docker Hub – https://hub.docker.com/
+
+
+Polecenia użyte w lekcji:
+
+docker images
+
+docker tag <nazwaObrazu>:<tag> <nazwaKonta>/<nazwaRepozytoriumObrazu>:<tag>
+
+docker push <nazwaKonta>/<nazwaRepozytoriumObrazu>:<tag>
+
+docker login
+
+docker logout
+
+docker rmi <nazwaKonta>/<nazwaRepozytoriumObrazu>:<tag>
+
+docker pull <nazwaKonta>/<nazwaRepozytoriumObrazu>:<tag>

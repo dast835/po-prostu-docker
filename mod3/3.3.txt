@@ -1,0 +1,7 @@
+docker run -d --network host --name mynginx nginx 
+
+docker ps
+
+docker inspect <idKontenera>
+
+docker network inspect host

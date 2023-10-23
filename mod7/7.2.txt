@@ -1,0 +1,12 @@
+
+    Repozytorium z LazyDocker – https://github.com/jesseduffield/lazydocker
+
+Polecenia użyte w lekcji:
+
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+
+locate lazydocker
+
+sudo mv ~/.local/bin/lazydocker /usr/bin/lazydocker
+
+lazydocker

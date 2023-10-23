@@ -1,0 +1,22 @@
+
+    Oficjalna strona nginxa – https://www.nginx.com/
+    Oficjalna strona Apache’a – https://httpd.apache.org/
+    Strona dokumentacji nginxa na temat ustawienia reverse proxy – https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+
+docker run -dit --name my-apache-app -p 8080:80 httpd:2.4
+
+docker ps
+
+http://localhost:8080
+
+docker run -d --name some-nginx -p 80:80 nginx
+
+http://localhost
+
+docker exec -it <idKontenera> bash
+
+proxy_pass http://<ipHosta>:<port>/; 
+
+nginx -t
+
+nginx -s reload

@@ -1,0 +1,18 @@
+
+    Strona projektu minicube – https://minikube.sigs.k8s.io/docs/
+    Artykuł o instalacji klastra Kubernetesa na wirtualnych maszynach – http://dast.webd.pl/klaster-kubernetesa-na-virtualbox/
+
+
+
+
+Polecenia użyte w lekcji:
+
+minikube start
+
+copy <sciezkaZrodlowa> <sciezkaDocelowa>
+
+kubectl version --client
+
+kubectl cluster-info
+
+kubectl get pods -A

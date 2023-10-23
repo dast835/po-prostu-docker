@@ -1,0 +1,1 @@
+Strona dokumentacji Dockera z opisem instalacji na Ubuntu – https://docs.docker.com/engine/install/ubuntu/

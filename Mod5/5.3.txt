@@ -1,0 +1,61 @@
+
+    Dokumentacja dotycząca zmiennych w Docker Compose – https://docs.docker.com/compose/environment-variables/set-environment-variables/
+    Repozytorium z przykładem docker compose dla NextCloud – https://github.com/docker/awesome-compose/blob/master/nextcloud-postgres/compose.yaml
+
+Polecenia użyte w lekcji:
+
+export NAZWA=myportainer
+
+echo $nazwa
+
+Powyższe polecenia działają w systemie Linux
+
+docker compose config
+
+docker compose up -d
+
+docker compose ps
+
+docker compose --env-file .env.stage config
+
+docker compose --env-file .env.stage up
+
+DB_PASS=haslo
+DB_NAME=nextcloud_db
+DB_USER=next_user
+
+Plik .env
+
+DB_PASS=tajnehaslodobazy
+DB_NAME=nextcloud-stage
+DB_USER=root
+
+Plik .env.stage
+
+POSTGRES_HOST=db
+POSTGRES_PASSWORD=testowy
+POSTGRES_DB=testowy
+POSTGRES_USER=testowy
+
+Plik .env.test
+
+services:
+  nc:
+    env_file: .env.test
+    image: nextcloud:apache
+    ports:
+      - 80:80
+    restart: always
+    volumes:
+      - nc_data:/var/www/html
+  db:
+    env_file: .env.test
+    image: postgres:alpine
+    restart: always
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    expose:
+      - 5432
+volumes:
+  db_data:
+  nc_data:
